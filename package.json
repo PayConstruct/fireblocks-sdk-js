@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fireblocks/fireblocks-sdk-js.git"
+    "url": "https://github.com/PayConstruct/fireblocks-sdk-js"
   },
   "license": "MIT",
   "dependencies": {
