@@ -41,8 +41,7 @@ export class ApiClient {
         return (await this.axiosInstance.post(path, body, {
             headers: {
                 "X-API-Key": this.authProvider.getApiKey(),
-                "Authorization": `Bearer ${token}`,
-                "Idempotency-Key": idempotencyKey
+                "Authorization": `Bearer ${token}`
             }
         })).data;
     }
